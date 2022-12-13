@@ -684,7 +684,7 @@ endif
 " EasyMotion: {{{
 
 hi! link EasyMotionTarget Search
-hi! link EasyMotionShade Comment
+" hi! link EasyMotionShade Comment
 
 " }}}
 " Sneak: {{{
