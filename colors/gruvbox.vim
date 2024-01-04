@@ -14,6 +14,9 @@ if version > 580
   if exists("syntax_on")
     syntax reset
   endif
+  if has('nvim-0.10')
+    runtime colors/vim.lua
+  endif
 endif
 
 let g:colors_name='gruvbox'
